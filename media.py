@@ -7,16 +7,16 @@ class Media(object):
 
     def __init__(
         self,
-        movieTitle,
-        storyLine,
-        posterImage,
-        trailerYoutube,
+        movie_title,
+        storyline,
+        poster_image,
+        trailer_youtube
         ):
 
-        self.title = movieTitle
-        self.story = storyLine
-        self.poster_image_url = posterImage
-        self.trailer_youtube_url = trailerYoutube
+        self.title = movie_title
+        self.story = storyline
+        self.poster_image_url = poster_image
+        self.trailer_youtube_url = trailer_youtube
 
     def show_trailer(self):
         """ Open movie trailer in browser. """
