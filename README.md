@@ -21,6 +21,6 @@ Python should be included in your computer default's path.
 - Third: From your terminal navigate to the unzipped project folder
 - Forth: run the following code
 ```bash
-python entertainment_center.py
+python movie.py
 ```
 Now, your default browser will open a new window running the Movie Trailer Website.
